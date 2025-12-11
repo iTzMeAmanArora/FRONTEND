@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transition transform Animation</title>
+    <style>
+      .divi {
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+        transition-duration: 3s;
+        transition: transform 2s, background 2s ease;
+        transition-timing-function: ease;
+      }
+      .divi:hover {
+        /* transform: translate(50px,50px); */
+        /* transform: translate3d(50px, 50px, 50px); */
+        transform: rotate(45deg);
+        /* transform: scale(0.5); */
+        /* transform: skew(20deg, 10deg) scale(0.5) rotate(45deg)
+          translate(50px, 50px);
+        /* transform: matrix(5px 10px); */
+          transform: matrix(1, tan(20deg), tan(30deg), 1, 0, 0);
+          
+        background-color : crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="divi"></div>
+  </body>
+</html>

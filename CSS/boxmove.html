@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            
+            background-color: black;
+            margin-top: 50px;
+            margin-left: 25px;
+            animation: movebox 5s ease infinite;
+        }
+        @keyframes movebox{
+            0%{
+                transform: translate(0px,0px) rotate(30deg);
+            }
+            25%{
+                transform: translate(0px,300px) rotate(60deg);
+                background-color: green;
+            }
+            50%{
+                transform: translate(300px,300px) rotate(90deg);
+                background-color: aqua;
+            }
+            75%{
+                transform: translate(300px,0px) rotate(60deg);
+                background-color: blueviolet;
+            }
+            100%{
+                transform: translate(0px, 0px) rotate(30deg);
+                background-color: bisque;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

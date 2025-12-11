@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <table border="2" align="center" cellpadding="5px">
+            <tr>
+                <th colspan="4"><H3>Registration Form</H3></th>
+            </tr>
+            <tr>
+                <td><label for="t1">Student name </label>
+                </td>
+                <td><input type="text" id="t1" placeholder="First Name" required></td>
+                <td><input id="t2" type="text" placeholder="Middle Name">
+                </td>
+                <td>
+                    <input type="text" id="t3" placeholder="Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="t1"> Father's Name</label></td>
+                <td><input type="text" id="t1" placeholder="Enter Your Father's Name"></td>
+                <td><label for="t2"></label>Mother's Name</td>
+                <td><input type="text" id="t2" placeholder="Enter Your Mother's Name"></td>
+            </tr>
+            <tr>
+                <td><label for="t1">Date of Birth</label></td>
+                <td><input type="date"  id="t1" required></td>
+                <td><label >Gender</label></td>
+                <td><label for="t2">Male</label><input type="radio" id="t2"><label for="t3">Female</label><input type="radio" id="t3"></tr>
+            </tr>
+            <tr>
+                <td><label>Category</label></td>
+                <td><label for="t1" >Gen</label><input type="radio" id="t1">
+                <label for="t2" >OBC</label><input type="radio" id="t2">
+                <label for="t3" >SC/ST</label><input type="radio" id="t3">
+                </td>
+                <td><label >Handicapped</label></td>
+                <td><label for="t1" >Yes</label><input type="radio" id="t1">
+                    <label for="t2" >No</label><input type="radio" id="t2">
+                </td>
+            </tr>
+            <tr>
+                <TD><label>Ex-Serviceman</label></TD>
+                <TD><label for="t1">Yes</label><input type="radio"  id="t1">
+                <label for="t2">No</label><input type="radio"  id="t2"></TD>
+                <TD><label >EWS</label></TD>
+                <TD><label for="t1">Yes</label><input type="radio"  id="t1">
+                    <label for="t2">No</label><input type="radio"  id="t2">
+                </TD>
+            </tr>
+            <tr>
+                <td><label for="t1">Email ID</label></td>
+                <td><input type="email"  id="t1" required></td>
+                <td><label for="t2">Mobile No.</label></td>
+                <td><input type="number" id="t2"></td>
+            </tr>
+            <tr>
+                <td><label for="t1">State</label></td>
+                <td><select id="t1">
+                    <option value="default">Select any One</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Punjab">Punjab</option>
+                </select></td>
+                <td><label for="t1" >City</label></td>
+                <td><select  id="t1">
+                    <option value="default">Select Any one</option>
+                    <option value="HAnumangarh">Hanumangarh</option>
+                    <option value="ganaganagar">ganaganagar</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="t1">Upload Photo</label></td>
+                <td><input type="file" id="t1"></td>
+                <td><label for="t2"> Upload Signature</label></td>
+                <td><input type="file" id="t2"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3" align="center"><button>Submit</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
